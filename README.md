@@ -1,7 +1,8 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Visual Thinking
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+‘Visual thinking in het hbo’ wordt een platform met onderwijsmateriaal voor docenten en studenten om visual thinking in hun lessen en tijdens de studie toe te kunnen passen.
 
 ## Inhoudsopgave
 
