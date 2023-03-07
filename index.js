@@ -6,7 +6,7 @@ const app = express();
 
 // get info form api
 
-const url = "";
+const url = "https://api.visualthinking.fdnd.nl/api/v1/methods";
 
 // Stel ejs in als template engine en geef de 'views' map door
 app.set("view engine", "ejs");
