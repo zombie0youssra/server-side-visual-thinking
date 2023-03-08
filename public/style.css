@@ -1,0 +1,12 @@
+root{
+ --text-color:;
+ --sub-text-color:;
+ --link-text-color:;
+ --background-color:white;
+
+}
+
+body{
+    background-color: var(--background-color);
+    
+}
