@@ -51,13 +51,24 @@ p{
     width: 20em;
 }
 
+.methods-container{
+    
+}
 
-
+.method-cards{
+   
+}
 
 .method-card-img{
  background-color: grey;
  height: 15em;
  width: 20em;
+}
+
+.method-name{
+    font-family: var(--rigid);
+    background-color: rgb(255, 212, 22);
+    width:fit-content;
 }
 
 @media screen and (min-width: 600px) {
