@@ -1,4 +1,5 @@
 // Importeer express uit de node_modules map
+import { render } from "ejs";
 import express, { response } from "express";
 
 // Maak een nieuwe express app aan

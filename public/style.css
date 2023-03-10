@@ -1,15 +1,16 @@
-root{
+:root{
  --text-color:#090940;
- --background-color:white;
+ --background-color:rgb(255, 255, 255);
  --rigid: rigid-square, sans-serif;
  --broodtekst:"yrsa","Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
 
 }
 
-body{
+
+ body{
     background-color: var(--background-color);
     color: var(--text-color); 
-}
+} 
 
 h1{
     font-family: var(--rigid);
