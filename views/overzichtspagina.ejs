@@ -1,8 +1,29 @@
 <%- include('./head') %>
 
-<div><p><%=methods.title%></p></div>
-      
-      
+<main>
+
+    <section class="filter-searchbar">
+    <div class="searchbar">
+        <input type="text" placeholder="Search..">
+    </div>
+    <div class="filter">
+        <button>filter</button>
+    </div>
+    </section>
+
+    <section class="methods-container">
+        <% methods.forEach(method=> { %>
+        <div class="method-title">
+       <h2> <%= method.title %></h2>
+    </div>
+    </div>
+    
+    <div class="method-card-img">
+    </div>
+        <% }) %>
+    </section>
+
+</main>
 
 
 <%- include('./foot') %>

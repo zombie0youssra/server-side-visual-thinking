@@ -7,7 +7,7 @@ const app = express();
 
 // get info form api
 
-const url = "https://api.visualthinking.fdnd.nl/api/v1/";
+const url = "https://api.visualthinking.fdnd.nl/api/v1";
 
 // Stel ejs in als template engine en geef de 'views' map door
 app.set("view engine", "ejs");
@@ -24,10 +24,7 @@ app.get("/", (request, response) => {
 
 app.get("/overzichtspagina", (request, response) => {
   console.log(request.query.methods);
-
-  let slug = request.query.methods || "methods";
-  let orderBy = request.query.orderBy || "titel";
-  let methodsUrl = url + slug + "?orderBy=" + orderBy + "&direction=ASC";
+  const methodsUrl = url + "/methods";
 
   fetchJson(methodsUrl).then((data) => {
     response.render("overzichtspagina", data);

@@ -10,12 +10,56 @@
  body{
     background-color: var(--background-color);
     color: var(--text-color); 
+    margin-left: 3em;
+
 } 
 
 h1{
     font-family: var(--rigid);
 }
 
+h2{
+    font-family: var(--rigid);
+}
+
+.homepage-text{
+    margin-left: 3em;
+    width: 20em;
+    text-align: center;
+}
+
+
 p{
     font-family: var(--broodtekst);
+}
+
+
+.emphasis{
+    color: lightslategray;
+
+}
+
+
+
+
+/* overzichtspagina */
+
+
+.filter-searchbar{
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+}
+
+
+
+
+.method-card-img{
+ background-color: grey;
+ height: 15em;
+ width: 20em;
+}
+
+@media screen and (min-width: 600px) {
+
 }
