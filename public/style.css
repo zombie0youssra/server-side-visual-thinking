@@ -1,6 +1,39 @@
 :root{
+/* primaire kleuren */
+    /* donkerblauw */
  --text-color:#090940;
- --background-color:rgb(255, 255, 255);
+ --text-color-var01:#3a3a66;
+ --text-color-var02:#6b6b8c;
+ --text-color-var03:#9d9db3;
+ --text-color-var04:#ceced9;
+
+/* tekstvlakken of stroken */
+   /*lichtblauw */
+--text-stroke-color:#67c5d1;
+--text-stroke-color-var01:#85d1da;
+--text-stroke-color-var02:#a4dce3;
+--text-stroke-color-var03:#c2e8ed;
+--text-stroke-color-var04:#e1f3f6;
+
+   /* rood */
+--text-stroke-color-var05:#f96c4f;
+--text-stroke-color-var06:#fa8972;
+--text-stroke-color-var07:#fba795;
+--text-stroke-color-var08:#fdc4b9;
+--text-stroke-color-var09:#fee2dc;
+
+/* interactieve elementen */
+  /* geel */
+--interactive-el-color:#feb51e;
+--interactive-el-color-var01:#fec44b;
+--interactive-el-color-var01:#fed378;
+--interactive-el-color-var01:#ffe1a5;
+--interactive-el-color-var01:#fff0d2;
+
+
+ --background-color:white;
+
+ /* fonts */
  --rigid: rigid-square, sans-serif;
  --broodtekst:"yrsa","Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
 
@@ -14,6 +47,8 @@
 
 } 
 
+/* headings */
+
 h1{
     font-family: var(--rigid);
 }
@@ -21,6 +56,8 @@ h1{
 h2{
     font-family: var(--rigid);
 }
+
+
 
 .homepage-text{
     margin-left: 3em;
@@ -49,14 +86,6 @@ p{
     display: flex;
     flex-direction: row;
     width: 20em;
-}
-
-.methods-container{
-    
-}
-
-.method-cards{
-   
 }
 
 .method-card-img{
