@@ -40,6 +40,12 @@
 }
 
 
+.logo{
+    width: 10em;
+    height: 12em;
+}
+
+
  body{
     background-color: var(--background-color);
     color: var(--text-color); 
@@ -88,17 +94,26 @@ p{
     width: 20em;
 }
 
-.method-card-img{
- background-color: grey;
- height: 15em;
- width: 20em;
+
+.categorie-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.method-name{
-    font-family: var(--rigid);
-    background-color: rgb(255, 212, 22);
-    width:fit-content;
+
+.categorie-card{
+    display: flex;
+    flex-direction: column;
 }
+
+.categorie-img {
+    background-color: grey;
+    height: 15em;
+    width: 20em;
+}
+
+
 
 @media screen and (min-width: 600px) {
 

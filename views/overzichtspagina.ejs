@@ -4,7 +4,7 @@
 
     <section class="filter-searchbar">
     <div class="searchbar">
-        <input type="text" placeholder="Search..">
+        <input type="text" placeholder="zoeken..">
     </div>
     <div class="filter">
         <button>filter</button>
@@ -12,18 +12,21 @@
     </section>
     <hr>
 
-    <section class="methods-container">
-        <% methods.forEach(method=> { %>
-        <div class="method-cards">
-         <div class="method-title">
-          <h2> <%= method.title %></h2>
-         </div>
-    </div>
-    
-    <div class="method-card-img">
-        <div class="method-name">organiseren</div>
-    </div>
-</div>
+
+    <section class="method-container">
+      <% methods.forEach(method=> { %>
+        <article> 
+            <h2><%= method.title %></h2>
+            <div class="categorie-container">
+                 <% method.categories.forEach(categorie=> { %>
+                <div class="categorie-card">
+                <h3> <%= categorie.title %></h3>
+              <div class="categorie-img"></div>
+            </div>
+           </div>
+        </article>  
+
+        <% }) %>
         <% }) %>
     </section>
 
