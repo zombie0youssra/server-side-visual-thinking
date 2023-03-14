@@ -87,34 +87,43 @@ p{
 
 /* overzichtspagina */
 
-
 .filter-searchbar{
     display: flex;
     flex-direction: row;
-    width: 20em;
+    margin-bottom: 3em;
+}
+
+.filter{
+    height: 1.6em;
+    font-family: var(--rigid);
+    background-color:var(--interactive-el-color);
+    border:none;
+}
+
+.filter:hover{
+    background-color: var(--text-stroke-color);
 }
 
 
-.categorie-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.method-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 1em;
 }
 
-
-.categorie-card{
-    display: flex;
-    flex-direction: column;
+.method-card{
+height: 20em;
+width: 100%;
 }
 
-.categorie-img {
-    background-color: grey;
-    height: 15em;
-    width: 20em;
+.method-img{
+height: 15em;
+width: auto;
 }
-
-
 
 @media screen and (min-width: 600px) {
-
+ .method-card{
+    width: 40%;
+ }
 }

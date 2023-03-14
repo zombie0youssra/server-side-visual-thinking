@@ -6,27 +6,19 @@
     <div class="searchbar">
         <input type="text" placeholder="zoeken..">
     </div>
-    <div class="filter">
-        <button>filter</button>
+    <div>
+        <button class="filter">filter</button>
     </div>
     </section>
-    <hr>
+  
 
 
     <section class="method-container">
       <% methods.forEach(method=> { %>
-        <article> 
+        <article class="method-card"> 
             <h2><%= method.title %></h2>
-            <div class="categorie-container">
-                 <% method.categories.forEach(categorie=> { %>
-                <div class="categorie-card">
-                <h3> <%= categorie.title %></h3>
-              <div class="categorie-img"></div>
-            </div>
-           </div>
-        </article>  
-
-        <% }) %>
+            <img class="method-img" src="<%= method.template.url %>">
+        </article> 
         <% }) %>
     </section>
 
