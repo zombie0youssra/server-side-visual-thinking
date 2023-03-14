@@ -1,17 +1,25 @@
 <%- include('./head') %>
 
+<section><h1>Methodes</h1></section>
+
 <main>
 
-    <section class="filter-searchbar">
+    <section class="searchbar-container">
     <div class="searchbar">
         <input type="text" placeholder="zoeken..">
     </div>
     <div>
-        <button class="filter">filter</button>
+        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
     </section>
     
     <section class="line"></section>
+
+    <section class="filter-container">
+    
+        <a href="////"><i class="fa-solid fa-sliders"></i></a>
+    
+    </section>
   
 
 
@@ -19,9 +27,9 @@
       <% methods.forEach(method=> { %>
         <article class="method-card"> 
             <h2><%= method.title %></h2>
-            <img class="method-img" src="<%= method.template.url %>">
+             <img class="method-img" src="<%= method.template.url %>">
         </article> 
-        <% }) %>
+      <% }) %>
     </section>
 
 </main>

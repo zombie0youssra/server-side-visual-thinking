@@ -57,10 +57,12 @@
 
 h1{
     font-family: var(--rigid);
+    font-size: 35px;
 }
 
 h2{
     font-family: var(--rigid);
+    font-size: 25px;
 }
 
 
@@ -114,21 +116,23 @@ p{
 
 /* overzichtspagina */
 
-.filter-searchbar{
+.searchbar-container{
     display: flex;
     flex-direction: row;
     margin-bottom: 1em;
 }
 
-.filter{
+.search-button{
     height: 1.6em;
+    width: auto;
     font-family: var(--rigid);
     background-color:var(--text-color);
     color: var(--text-color-var04);
     border:none;
 }
 
-.filter:hover{
+
+.search-button:hover{
     background-color: var(--interactive-el-color);
     color: var(--text-color);
 }
@@ -137,6 +141,24 @@ p{
     height: 0.1em;
     width: 87vw;
     background-color: var(--interactive-el-color);
+}
+
+.filter-container{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.filter-container i{
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.filter-container i:hover{
+    color:var(--interactive-el-color);
 }
 
 .method-container{
@@ -156,9 +178,22 @@ height: 15em;
 width: auto;
 }
 
+
+/* footer */
+
+footer{
+    margin-top: 1em;
+    height: 3em;
+    width: 89vw;
+    background-color:var(--interactive-el-color);
+}
+
+
+
 /* mobile */
 @media screen and (min-width: 600px) {
 
+/* index */
 /* overzichtspagina */
 
  .method-card{
@@ -170,12 +205,20 @@ width: auto;
 /* laptop */
 @media screen and (min-width:800px) {
 
+/* head */
 .header-top{
     gap: 80%;
 }
 
+/* index */
+
+/* footer */
+footer{
+    width: 95vw;
+}
+
  /*overzichtspagina */
  .line{
-    width: 97%;
+    width: 95vw;
  }
 }
