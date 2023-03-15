@@ -26,10 +26,22 @@
   /* geel */
 --interactive-el-color:#feb51e;
 --interactive-el-color-var01:#fec44b;
---interactive-el-color-var01:#fed378;
---interactive-el-color-var01:#ffe1a5;
---interactive-el-color-var01:#fff0d2;
+--interactive-el-color-var02:#fed378;
+--interactive-el-color-var03:#ffe1a5;
+--interactive-el-color-var04:#fff0d2;
 
+/* secundaire kleuren */
+--secundaire-colors-01: #af1301;
+--secundaire-colors-02:#fbc5b4,;
+--secundaire-colors-03: #169861,; 
+--secundaire-colors-04:#63c09f,;
+--secundaire-colors-05: #4fbbc2,;
+--secundaire-colors-06: #31439c,;
+--secundaire-colors-07:#8b3a00,;
+--secundaire-colors-08: #fe6f07;
+}
+
+/* grey tones */
 
  --background-color:white;
 
@@ -100,10 +112,6 @@ h2{
     text-align: center;
 }
 
-.svg-beehives{
-    
-}
-
 
 p{
     font-family: var(--broodtekst);
@@ -172,6 +180,12 @@ flex-direction: row;
 flex-wrap: wrap;
 gap: 1em;
 }
+
+.method-card a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 
 .method-card{
 height: 20em;

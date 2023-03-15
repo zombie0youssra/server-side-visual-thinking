@@ -18,16 +18,29 @@ app.use(express.static("public"));
 
 // Maak een route voor de index
 
+// homepagina
 app.get("/", (request, response) => {
   response.render("index");
 });
 
+// overzichtspagina
 app.get("/overzichtspagina", (request, response) => {
   console.log(request.query.methods);
   const methodsUrl = url + "/methods";
 
   fetchJson(methodsUrl).then((data) => {
     response.render("overzichtspagina", data);
+  });
+});
+
+// detailpagina
+
+app.get("/detailpagina", (request, response) => {
+  console.log(request.query.methods);
+  const methodsUrl = url + "/methods";
+
+  fetchJson(methodsUrl).then((data) => {
+    response.render("detailpagina", data);
   });
 });
 
