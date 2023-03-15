@@ -62,7 +62,7 @@ h1{
 
 h2{
     font-family: var(--rigid);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -100,6 +100,10 @@ h2{
     text-align: center;
 }
 
+.svg-beehives{
+    
+}
+
 
 p{
     font-family: var(--broodtekst);
@@ -115,6 +119,7 @@ p{
 
 
 /* overzichtspagina */
+
 
 .searchbar-container{
     display: flex;
@@ -170,7 +175,7 @@ gap: 1em;
 
 .method-card{
 height: 20em;
-width: 100%;
+width: auto;
 }
 
 .method-img{
@@ -179,25 +184,27 @@ width: auto;
 }
 
 
-/* footer */
-
-footer{
-    margin-top: 1em;
-    height: 3em;
-    width: 89vw;
-    background-color:var(--interactive-el-color);
-}
-
-
-
 /* mobile */
 @media screen and (min-width: 600px) {
 
+/* head */
+    .header-top {
+        gap: 65%;
+    }
+
 /* index */
+ .homepage-text{
+   padding-left: 30vw;
+}
+
+.svg-beehives{
+  padding-left: 30vw;
+}
+
 /* overzichtspagina */
 
  .method-card{
-    width: 40%;
+    width: 47%;
  }
 }
 
@@ -213,12 +220,13 @@ footer{
 /* index */
 
 /* footer */
-footer{
-    width: 95vw;
-}
 
  /*overzichtspagina */
  .line{
     width: 95vw;
  }
+
+  .method-card {
+      width: 30%;
+  }
 }
