@@ -2,15 +2,13 @@
 
 
 <main>
-    <section><h1>Methodes</h1></section>
+    <section><h1>Werkvormen </h1></section>
 
 
     <section class="searchbar-container">
     <div class="searchbar">
-        <input type="text" placeholder="zoeken..">
-    </div>
-    <div>
-        <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+         <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+         <input type="text" placeholder="zoeken..">
     </div>
     </section>
     
@@ -27,9 +25,12 @@
         <article class="method-card"> 
             <a href="./detailpagina"><h2><%= method.title %></h2></a>
              <img class="method-img" src="<%= method.template.url %>">
-             <p class="tags">organiseren</p>
+          <% method.categories.forEach(categorie=> { %>
+           <!-- <div class="tags"><p> <%= categorie.title %></p></div> -->
         </article> 
       <% }) %>
+      <% }) %>
+
     </section>
 
 </main>

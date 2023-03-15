@@ -73,7 +73,7 @@
 
 h1{
     font-family: var(--rigid);
-    font-size: 35px;
+    font-size: 36px;
 }
 
 h2{
@@ -119,11 +119,14 @@ h2{
 
 p{
     font-family: var(--broodtekst);
+    font-size: 22px;
 }
 
 
 .emphasis{
     color: lightslategray;
+    font-family: var(--broodtekst);
+    font-size: 20px;
 
 }
 
@@ -142,16 +145,17 @@ p{
 .search-button{
     height: 1.6em;
     width: auto;
+    font-size: 24px;
     font-family: var(--rigid);
-    background-color:var(--text-color);
-    color: var(--text-color-var04);
+    background-color:var(--background-color);
+    color: var(--text-color-var03);
     border:none;
 }
 
-
-.search-button:hover{
-    background-color: var(--interactive-el-color);
-    color: var(--text-color);
+.searchbar-container input{
+    border: none;
+    font-size: 20px;
+    color: var(--text-color-var02);
 }
 
 .line{
@@ -174,9 +178,6 @@ p{
     color: var(--text-color);
 }
 
-.filter-container i:hover{
-    color:var(--interactive-el-color);
-}
 
 .method-container{
 display: flex;
@@ -185,26 +186,19 @@ flex-wrap: wrap;
 gap: 1em;
 }
 
-.method-card a{
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-
 .method-card{
 height: 20em;
 width: auto;
 }
 
+.method-card a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 .method-img{
 height: 15em;
 width: auto;
-}
-
-.tags{
-    height: 1em;
-    width:fit-content;
-    background-color:var(--interactive-el-color);
 }
 
 
