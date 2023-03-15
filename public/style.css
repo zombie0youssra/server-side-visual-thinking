@@ -39,9 +39,13 @@
 --secundaire-colors-06: #31439c,;
 --secundaire-colors-07:#8b3a00,;
 --secundaire-colors-08: #fe6f07;
-}
+
 
 /* grey tones */
+--grey-colors: #625c51;
+--grey-colors-01: #c0beb9;
+--grey-colors-02 :#e0dedc;
+--grey-colors-03:#f9f8f8;
 
  --background-color:white;
 
@@ -195,6 +199,12 @@ width: auto;
 .method-img{
 height: 15em;
 width: auto;
+}
+
+.tags{
+    height: 1em;
+    width:fit-content;
+    background-color:var(--interactive-el-color);
 }
 
 
