@@ -19,7 +19,10 @@
 
 ## Beschrijving 📝
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-Ik heb gewerkt aan userstory 2 en 5 
+Ik heb gewerkt aan userstory de volgende userstorys:
+- userstory #5: Als docent wil ik een overzicht met alle werkvormen kunnen bekijken om te zien of ik het kan gebruiken in mijn les.
+- userstory #2: Als docent wil ik werkvormen kunnen zoeken, of filteren en sorteren op basis van een doel zodat ik een werkvorm vind die bij mijn les past.
+
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
