@@ -3,6 +3,8 @@
 # Visual Thinking
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 ‘Visual thinking in het hbo’ wordt een platform met onderwijsmateriaal voor docenten en studenten om visual thinking in hun lessen en tijdens de studie toe te kunnen passen.
+![image](https://user-images.githubusercontent.com/112857270/225767524-a914bda2-4f9c-4573-9923-ef78f695377b.png)
+
 
 ## Inhoudsopgave
 
