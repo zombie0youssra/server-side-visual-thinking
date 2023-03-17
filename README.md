@@ -56,6 +56,11 @@ je kan van de homepage naar de overzichtspagina. Op de overzichtspagina zie je e
 
 ## Bronnen
 
+- visual thinking livingstyle guide
+- figma prototype
+- workshops server-side templating
+
 ## Licentie
+
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
