@@ -23,8 +23,9 @@ Ik heb gewerkt aan userstory de volgende userstorys:
 - userstory #5: Als docent wil ik een overzicht met alle werkvormen kunnen bekijken om te zien of ik het kan gebruiken in mijn les.
 - userstory #2: Als docent wil ik werkvormen kunnen zoeken, of filteren en sorteren op basis van een doel zodat ik een werkvorm vind die bij mijn les past.
 
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<!-- Voeg een mooie poster visual toe 📸 -->![image](https://user-images.githubusercontent.com/112857270/225868654-a9e967ce-fdaf-4587-b2b7-d827eb22d436.png)
+
+<!-- Voeg een link toe naar Github Pages 🌐--> https://black-chicken-sari.cyclic.app/
 
 ## Kenmerken 💅
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
