@@ -24,7 +24,7 @@
       <% methods.forEach(method=> { %>
         <article class="method-card"> 
             <a href="./detailpagina"><h2><%= method.title %></h2></a>
-             <img class="method-img" src="<%= method.template %>">
+             <img class="method-img" src="<%= method.template?.url %>">
           <% method.categories.forEach(categorie=> { %>
            <!-- <div class="tags"><p> <%= categorie.title %></p></div> -->
         </article> 
