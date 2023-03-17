@@ -51,6 +51,8 @@ Ik heb gewerkt aan userstory de volgende userstorys:
 
 ## Gebruik
 
+je kan van de homeopage naar de overzichtspagina. Op de overzichtspagina zie je een overzicht van aalle methodes van visual thinking. Van de overzichtpagina kan je ook nog verder naar de detailpagina om dieper op de methodes te gaan.
+
 ## Bronnen
 
 ## Licentie
