@@ -26,7 +26,7 @@ app.get("/", (request, response) => {
 // overzichtspagina
 app.get("/overzichtspagina", (request, response) => {
   console.log(request.query.methods);
-  const methodsUrl = url + "/methods";
+  const methodsUrl = url + "/methods?first=100";
 
   fetchJson(methodsUrl).then((data) => {
     response.render("overzichtspagina", data);
