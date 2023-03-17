@@ -23,7 +23,8 @@ Ik heb gewerkt aan userstory de volgende userstorys:
 - userstory #5: Als docent wil ik een overzicht met alle werkvormen kunnen bekijken om te zien of ik het kan gebruiken in mijn les.
 - userstory #2: Als docent wil ik werkvormen kunnen zoeken, of filteren en sorteren op basis van een doel zodat ik een werkvorm vind die bij mijn les past.
 
-<!-- Voeg een mooie poster visual toe 📸 -->
+<!-- Voeg een mooie poster visual toe 📸 --> <img width="581" alt="image" src="https://user-images.githubusercontent.com/112857270/225869489-15a103f7-3ff4-49e0-aabc-eca4a584a861.png">
+
 <!-- Voeg een link toe naar Github Pages 🌐--> https://black-chicken-sari.cyclic.app/
 
 ## Kenmerken 💅
