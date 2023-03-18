@@ -31,14 +31,14 @@
 --interactive-el-color-var04:#fff0d2;
 
 /* secundaire kleuren */
---secundaire-colors-01: #af1301;
---secundaire-colors-02:#fbc5b4,;
---secundaire-colors-03: #169861,; 
---secundaire-colors-04:#63c09f,;
---secundaire-colors-05: #4fbbc2,;
---secundaire-colors-06: #31439c,;
---secundaire-colors-07:#8b3a00,;
---secundaire-colors-08: #fe6f07;
+--sec-colors-01: #af1301;
+--sec-colors-02:#fbc5b4,;
+--sec-colors-03: #169861,; 
+--sec-colors-04:#63c09f,;
+--sec-colors-05: #4fbbc2,;
+--sec-colors-06: #31439c,;
+--sec-colors-07:#8b3a00,;
+--sec-colors-08: #fe6f07;
 
 
 /* grey tones */
@@ -83,7 +83,13 @@ h2{
 
 
 
-/* head */
+
+
+
+
+
+
+/* homepage */
 
 .header-top{
     display: flex;
@@ -129,6 +135,17 @@ p{
     font-size: 20px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -202,6 +219,43 @@ width: auto;
 }
 
 
+
+
+
+
+
+
+/* detailpagina */
+
+.method-categories ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: -2em;
+}
+
+.method-categories li {
+    background-color: var(--interactive-el-color);
+    width: 9em;
+    height: auto;
+}
+
+.method-info-text{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile */
 @media screen and (min-width: 600px) {
 
@@ -209,6 +263,9 @@ width: auto;
     .header-top {
         gap: 65%;
     }
+
+
+
 
 /* index */
  .homepage-text{
