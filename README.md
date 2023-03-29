@@ -34,7 +34,7 @@ Ik heb gewerkt aan userstory de volgende userstorys:
 - goodnotes
 - visuel studio code
 
-### gerbuikte technieken 🍟
+### gebruikte technieken 🍟
 - ejs
 - javascript
 - node.js
